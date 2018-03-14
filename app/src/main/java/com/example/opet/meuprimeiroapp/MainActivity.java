@@ -13,6 +13,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Muda o texto.
         textWelcome = findViewById(R.id.textWelcome);
         textWelcome.setText("Mudei pelo Java.");
     }
